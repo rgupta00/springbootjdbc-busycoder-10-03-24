@@ -1,0 +1,10 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /productapp
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/busycoder
+    driver-class-name: com.mysql.cj.jdbc.Driver
